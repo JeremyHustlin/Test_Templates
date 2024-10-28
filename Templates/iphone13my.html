@@ -1,0 +1,632 @@
+<style>
+    .iphone13-body {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      color: white;
+      background-color: black;
+    }
+  
+    @media (min-width: 1024px) {
+      .iphone13-body {
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+    }
+  
+    .iphone13-first-section {
+      color: white;
+      background-color: #34283c;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    .iphone13-first-section .iphone13-roze-img {
+      max-width: 130px;
+    }
+  
+    .first-section-h1 {
+      max-width: 750px;
+      color: white;
+      font-size: 1.5rem;
+      line-height: 1.75rem;
+    }
+  
+    @media (min-width: 768px) {
+      .first-section-h1 {
+        font-size: 2rem;
+        line-height: 2.25rem;
+      }
+    }
+  
+    @media (min-width: 1024px) {
+      .first-section-h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+      }
+    }
+  
+    .first-section-p {
+      max-width: 750px;
+      margin-top: 1rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  
+    @media (min-width: 768px) {
+      .first-section-p {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+    }
+  
+    .iphone13roze {
+      margin-top: 1rem;
+      max-width: 100%;
+    }
+  
+    @media (min-width: 768px) {
+      .iphone13roze {
+        width: auto;
+      }
+    }
+  
+  
+    @media (min-width: 1080px) and (max-width: 3840px) {
+      .iphone13-second-section {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 3%;
+  
+      }
+    }
+  
+  
+    .iphone-13-second-section-h2 {
+      color: #fff;
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+  
+    .iphone-13-second-section-p {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+  
+    .iphone13-second-section-div p {
+      color: white;
+      text-align: justify;
+    }
+  
+    /* Styles for medium and larger screens */
+    @media (min-width: 768px) {
+      .iphone13-second-section-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 4%;
+        justify-content: space-between;
+      }
+  
+      .iphone13-second-section-container .text-section {
+        max-width: 100%;
+      }
+      .iphone-13-second-section-h2 {
+        font-size: 2.5rem;
+        /* Larger font size for bigger screens */
+      }
+  
+      .iphone-13-second-section-p {
+        font-size: 1.5rem;
+        /* Larger paragraph font size */
+      }
+  
+    }
+  
+    /* Optional: Styles for even larger screens (desktops) */
+  
+  
+    .iphone-13-second-section-h2 {
+      color: white;
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
+  
+    .iphone13-second-section-container .iphone13-second-section-div {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+  
+    @media (min-width: 1430px) and (max-width: 3840px) {
+  
+      .iphone13-second-section-container .iphone13-text-section {
+        display: flex;
+        width: 50%;
+      }
+    }
+  
+    .iphone13-second-section-grid-img {
+      margin-top: 2rem;
+      width: 100%;
+    }
+  
+    .iphone13-third-section {
+      margin-top: 30px;
+    }
+  
+    .iphone13-third-section-container,
+    .iphone13-third-section-second-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 4% 0;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .text-content {
+      max-width: 350px;
+      text-wrap: wrap;
+    }
+  
+    .text-content h3 {
+      font-weight: 700;
+      color: white;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  
+    .-text {
+      font-weight: 700;
+    }
+  
+    .text-with-image {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      align-items: center;
+    }
+  
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .small-icon {
+      max-width: 100px;
+      height: auto;
+    }
+  
+    @media (min-width: 768px) {
+      .iphone13-third-section-container,
+      .iphone13-third-section-second-container {
+        flex-direction: row;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .text-content h3 {
+        font-size: 1.75rem;
+      }
+  
+      .small-icon {
+        max-width: 80px;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      .text-content {
+        max-width: 100%;
+      }
+  
+      .responsive-image {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .text-content h3 {
+        font-size: 1.5rem;
+      }
+  
+      .small-icon {
+        max-width: 60px;
+      }
+    }
+  
+  
+    /* General Styling */
+    .iphone13-fourth-section-container-first {
+      display: flex;
+      flex-direction: column-reverse;
+      /* Stack by default */
+      align-items: center;
+      padding: 4% 0;
+      justify-content: center;
+      gap: 20px;
+    }
+    .iphone13-fourth-section-container-second {
+      display: flex;
+      flex-direction: column;
+      /* Stack by default */
+      align-items: center;
+      padding: 4% 0;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    /* Text and Image Containers */
+    .iphone13-text-container {
+      max-width: 350px;
+      text-align: left;
+    }
+  
+    .iphone13-image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .iphone13-feature {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+  
+    .iphone13-feature img {
+      max-width: 100px;
+    }
+  
+    /* Headings and s */
+    h3 {
+      color: white;
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  
+    p {
+      font-weight: 700;
+    }
+  
+    /* Media Queries for Larger Screens */
+    @media (min-width: 1024px) {
+      .iphone13-fourth-section-container-first,
+      .iphone13-fourth-section-container-second {
+        flex-direction: row;
+        /* Side by side on larger screens */
+        justify-content: space-between;
+      }
+  
+      .iphone13-text-container,
+      .iphone13-image-container {
+        flex: 1;
+        max-width: 45%;
+        /* Keep it balanced */
+      }
+  
+      .iphone13-text-container {
+        text-align: left;
+      }
+    }
+  
+    @media (min-width : 768px) {
+      .iphone13-img-info-left {
+        margin-left: 4%
+      }
+    }
+    @media (min-width : 768px) {
+      .iphone13-img-info-right {
+        margin-right: 4%
+      }
+    }
+  
+    @media (min-width: 768px) {
+      .iphone13-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+      }
+      .iphone13-grid .col1 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .iphone13-grid .col2 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .iphone13-grid .col3 {
+        display: flex;
+        gap: 60px;
+        margin-top: 20px;
+      }
+    }
+  
+  
+    /*
+  
+     @media (min-width: 1279px) and (max-width: 1853px) { 
+     .iphone13-grid .col3 { 
+     margin-top: 20px; 
+     display: flex; 
+     flex-direction: row; 
+     gap: 20px; 
+     } 
+     } 
+  */
+    @media (min-width: 1080px) and (max-width: 1278px) {
+      .iphone13-grid .col3 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 20px;
+      }
+      .iphone13-grid .col2 {
+        margin-top: 20px;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 1080px) {
+      .iphone13-grid .col3 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
+      }
+    }
+    @media (min-width: 320px) and (max-width : 767px) {
+      .iphone13-grid .col3 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .iphone13-grid .col2 {
+        margin-top: 20px;
+        margin-left: 0 !important;
+      }
+      .iphone13-second-section .iphone13-second-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .iphone13-second-section .iphone13-second-section-container .iphone13-second-section-div {
+  
+        width: 100%;
+      }
+      .iphone13-grid .col2 p {
+        left: 50% !important;
+      }
+  
+  
+      /*
+  
+     .iphone13-grid .col2 { 
+     margin-top: 20px !important; 
+     margin-left: 0 !important; 
+     padding-left: 130px !important; 
+     } 
+  */
+      .iphone13-grid .col3 .ceramic-shield {
+        max-width: 100% !important;
+      }
+      .iphone13-grid .col3 .ceramic-shield {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+    @media (min-width : 320px) and (max-width: 425px) {
+      .iphone13-grid .col3 {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  
+    .before::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("https://cdn.shopify.com/s/files/1/0722/6533/5005/files/water.webp?v=1729243296");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    @media (min-width: 550px) {
+      .display-size {
+        display: flex;
+        gap: 10px;
+      }
+    }
+    @media (max-width: 425px) {}
+  .iphone13-grid .col2 p {
+    position: absolute;
+    left: 34%;
+    writing-mode: vertical-rl;
+    max-width: unset;
+    transform: rotate(180deg);
+    transform-origin: left center;
+    inline-size: 600px;
+    text-align: center;
+    font-weight: 700;
+    right: 20px;
+  }
+  </style>
+  
+  
+  <section class="iphone13-first-section">
+    <img class="iphone13-roze-img" src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/iphone13.png?v=1729150616" alt="iphone 13 logo">
+    <div>
+      <h1 class="first-section-h1">Noua ta superputere.</h1>
+      <p class="first-section-p">
+        Ecran superstrălucitor într-un design rezistent. Filmări demne de Hollywood, mai ușor de realizat ca niciodată. Cip uluitor de rapid. Creștere consistentă a autonomiei bateriei, pe care o vei remarca zi de zi.
+      </p>
+    </div>
+    <img class="iphone13roze" src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/iphone13roze.png?v=1729150617" alt="iphone roze">
+  </section>
+  <div class="iphone13-body">
+  
+    <section class="iphone13-second-section">
+      <div class="iphone13-second-section-container">
+        <div class="iphone13-text-section">
+          <div style="align-self: flex-end;">
+  
+            <h2 class="iphone-13-second-section-h2">Ecran și design</h2>
+            <p class="iphone-13-second-section-p">
+              <span>Superstrălucitor.</span>
+              <span>Supercolorat.</span>
+              <span>Superprecis.</span>
+            </p>
+          </div>
+        </div>
+        <div class="iphone13-second-section-div">
+          <p>Un afișaj OLED cu culori mai vii, care este, în același timp, mai ușor de văzut în lumina soarelui și mai eficient din punct de vedere energetic. Cu un design durabil, care este rezistent la apă și praf.</p>
+        </div>
+      </div>
+  
+  
+      <div class="iphone13-grid">
+        <div class="col1">
+          <div class="" style="background-color: #34283C; border-radius:20px; padding:20px; padding-left:20%; padding-right:20%;">
+  
+            <div class="display-size">
+              <div class="" style="display: flex; flex-direction:column; align-items:center;">
+                <p style="color:#fec2eb; font-weight:700;">6,1"</p>
+                <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/display_iphone_13_large_fc701526-d7eb-4798-9591-c5014c74cedb.webp?v=1729242534" alt="">
+              </div>
+              <div class="" style="display: flex; flex-direction:column; align-items:center; padding-top:30px">
+                <p style="color: #fec2eb; font-weight:700;">5,4"</p>
+                <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/display_iphone_13_mini_large_d4640b8b-aa5f-4128-857b-c37268fd7e4c.webp?v=1729242617" style="" alt="">
+              </div>
+            </div>
+            <div class="" style="display: flex; align-items:center; gap:5px; font-weight:700; justify-content:center;">
+              <p>Display Super Retina</p>
+              <span style="color: #fec2eb;">XDR</span>
+            </div>
+          </div>
+          <div class="before" style="background-color: #2d2e39; border-radius:20px; padding:0; padding: 10% 20% 10% 20%; margin: 20px 0 0 0; overflow:hidden; position:relative; width:100%; font-size:23px; font-weight:700;; text-align:center;">
+            Rezistență la apă
+          </div>
+        </div>
+  
+        <div class="col2" style="background-color: #0d3139; border-radius:20px; position:relative; justify-content:center; padding: 20px 20px 0 70px; margin-left:20px;">
+          <p>
+            Muchii din aluminiu de
+            <span style="color:#b2ff6b">calitate aerospatiala</span>
+          </p>
+          <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/design_large_95a4391e-2f02-434e-9b89-19fd3c66d04c.webp?v=1729243890" alt="">
+        </div>
+  
+        <div class="col3">
+          <div class="ceramic-shield" style="padding-left: 40px; background-color: #162238; border-radius:20px; max-width:330px;">
+            <div><img style="width:100%;" src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/display_ceramic_large_1e2b36a6-3dd5-406c-82c7-0421fc8a3ed9.webp?v=1729244436" alt=""></div>
+            <div class=""><img style="width: 37px; height:37px;" src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/display_icon_ceramic_large_2x_af331319-6bf5-4fd7-8e93-5a209ab404d5.webp?v=1729244507" alt=""></div>
+            <div>
+              <p style="color:#ffa9ab; font-weight:700;">Ceramic Shield</p>
+            </div>
+          </div>
+  
+          <div class="ceramic-shield" style="background-color: #3f1921; border-radius:20px; font-weight:700; padding:40px 0 0; overflow:hidden; max-width:330px;">
+            <p>
+              <span style="color:#f8b24c; padding-left:40px;">Cinci</span>
+              finisaje superbe.</p>
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/design_finish_large_d7420684-7155-485a-a2d9-7b9d3cca30d5.webp?v=1729253926" alt="iphone colors" style="width:100%; height: 100%; object-fit: contain;">
+  
+  
+          </div>
+        </div>
+  
+      </div>
+  
+    </section>
+  
+  
+    <section class="iphone13-third-section">
+      <div class="iphone13-third-section-container">
+        <div class="iphone13-img-info-right">
+          <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/Removal-470.png?v=1729241596" alt="Imagine iphone" class="responsive-image">
+        </div>
+        <div class="text-content">
+          <h3>Modul Cinematic</h3>
+          <p class="-text">iPhone a studiat cinematografia. Pentru a nu fi nevoie să o faci tu.</p>
+          <p>Creează în mod automat efecte de adâncime și tranziții ale focalizării în clipurile video. Treci la un nou nivel cu arta povestirii în scenele pe care le filmezi.</p>
+          <div class="text-with-image">
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/cut.png?v=1729150616" alt="Icon" class="small-icon">
+            <p>Modul Cinematic este disponibil și pentru camera frontală TrueDepth</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="iphone13-third-section-second-container">
+        <div class="text-content">
+          <h3>Sistem cu două camere</h3>
+          <p class="-text">Camere extrem de avansate. Poze cu adevărat superbe.</p>
+          <p>Un upgrade uriaș pentru poze și filmări mai bune. Mai multă lumină captată cu obiectivul superangular. Stabilizare optică a imaginii prin deplasarea senzorului. Mai multe detalii în zonele întunecate ale fotografiilor realizate cu obiectivul ultra-superangular.</p>
+          <div class="text-with-image">
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/camera.png?v=1729150616" alt="Camera Icon" class="small-icon">
+            <p>Un nou design pe diagonală permite un obiectiv superangular și un senzor de dimensiuni mai mari</p>
+          </div>
+        </div>
+        <div class="iphone13-img-info-left">
+          <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/phone.png?v=1729150617" alt="iPhone Image" class="responsive-image">
+        </div>
+      </div>
+    </section>
+  
+  
+    <section style="margin-top: 30px;">
+      <div class="iphone13-fourth-section-container-first">
+        <!-- Battery Section -->
+        <div class="iphone13-text-container">
+          <h3>Baterie</h3>
+          <p class="">Ridică ștacheta în privința autonomiei bateriei.</p>
+          <p>Creștere consistentă a autonomiei bateriei, pe care o vei remarca zi de zi. Adică mai mult timp pentru a viziona, a te juca și, în general, de a face mai multe lucruri care îți plac. Chiar și pe iPhone 13 mini.</p>
+          <div class="iphone13-feature">
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/baterie.png?v=1729150616" alt="Battery icon">
+            <p>Până la 19 ore de redare video cu o singură încărcare</p>
+          </div>
+        </div>
+  
+        <div class="iphone13-image-container">
+          <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/baterieimg.png?v=1729240247" alt="iPhone battery">
+        </div>
+      </div>
+  
+      <div class="iphone13-fourth-section-container-second">
+        <!-- A15 Bionic Section -->
+        <div class="iphone13-image-container">
+          <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/chip_large_1.webp?v=1729240951" alt="A15 Bionic chip">
+        </div>
+  
+        <div class="iphone13-text-container">
+          <h3>A15 Bionic</h3>
+          <p class="">Cipul care crește viteza. Perfecționează camera. Optimizează consumul.</p>
+          <p>A15 Bionic face posibile rularea jocurilor intense din punct de vedere grafic și noile funcționalități ale camerei, precum modul Cinematic și Stiluri fotografice. În plus, este mai eficient, permițând utilizarea mai îndelungată a dispozitivului.</p>
+          <div class="iphone13-feature">
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/A15.png?v=1729150616" alt="A15 chip icon">
+            <p>Performanță superioară azi și capacități puternice pentru anii următori</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  </div>
+  

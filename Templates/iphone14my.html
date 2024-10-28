@@ -1,0 +1,708 @@
+<style>
+    .page-width {
+padding: 0 4rem;
+margin: 0 auto;
+}
+ 
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @media only screen and (min-width: 800px){
+   .row_3 {
+     padding-left:50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    }
+    .row_2 {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+    }
+.row_1{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+align-content: space-around;
+flex-direction: column;
+}
+@media only screen and (min-width: 800px){
+  
+    .col-lg-6 {
+/*             flex-basis: 50%; */
+      flex: auto;
+   
+    }
+ 
+  }
+@media only screen and (min-width: 800px){
+  
+    .col-lg-11 {
+   justify-items: flex-end;
+margin-right: 15px;
+        flex: auto;
+    }
+ 
+  }
+  .col-lg-7 {
+
+align-items: center;
+ flex-basis: 100%;
+max-width: 100%;
+  }
+@media only screen and (max-width: 430px){
+.col-lg-7 {
+      display: flex;
+flex-direction: column-reverse;
+align-items: center;
+ flex-basis: 100%;
+max-width: 100%;
+  }
+}
+  .col-lg-8 {
+  text-align: left;
+ flex-basis: 100%;
+max-width: 90%;
+  }
+    .row5 {
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+  @media only screen and (max-width: 800px){
+  
+    .col-lg-6 {
+        margin-top:10px;
+      text-align:center;
+    }
+    
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction:column;
+    }
+  }
+@media only screen and (max-width: 800px){
+        .rows3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction:column-reverse;
+    }
+  }
+.rows3 {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+    }
+@media only screen and (max-width: 800px){
+  
+    .col-lg-11 {
+        margin-top:10px;
+      text-align:center;
+    }
+    
+  }
+@media only screen and (min-width: 800px){
+    .mb-4 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+    .align-items-center {
+        text-align: center;
+    }
+
+    .justify-content-between {
+        justify-content: space-between;
+    }
+   .d-flex {
+        display: flex;
+      
+}
+  @media only screen and (max-width: 800px){
+    .d-flex {
+           display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+  }
+      
+
+    .justify-content-center {
+        justify-content: right;
+    }
+
+    .mb-xxl-8 {
+        margin-bottom: 4rem;
+    }
+
+    .mb-xl-6 {
+        margin-bottom: 3.5rem;
+    }
+
+    .mb-lg-4 {
+         
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .my-5 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+@media only screen and (min-width: 800px){
+    .pt-5 {
+        padding-top: 5rem;
+    }
+}
+    .pt-6 {
+        padding-top: 2rem;
+    }
+
+    .padleft {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        flex-direction: column;
+        align-content: flex-end;
+          text-align: right;
+
+    }
+
+    .iphone-image {
+        max-width: 100%;
+        height: auto;
+        border: #1c1c1e;
+        border-radius: 10px;
+    }
+    .iphone-image1 {
+        
+    width: -webkit-fill-available;
+        border: #1c1c1e;
+        border-radius: 10px;
+      height: 229px !important;
+      
+    }
+
+    .iphone-image2 {
+       width:auto;
+        border: #1c1c1e;
+        border-radius: 10px;
+          height: 650px !important;
+    }
+
+  @media only screen and (max-width: 450px){
+.iphone-image2 {
+       width:auto;
+        border: #1c1c1e;
+        border-radius: 10px;
+  height: auto !important;
+         
+    }
+  }
+    
+    
+
+    .text-white {
+        color: white;
+        font-size: 30px;
+    }
+
+    .bg-dark {
+        background-color: #1c1c1e;
+    }
+
+    .zoom-control {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .rotate-270 {
+        transform: rotate(270deg);
+    }
+
+    .padding {
+        padding-bottom: 20px;
+    }
+
+    .custom-img {
+        
+    }
+
+    .custom-img2 {
+        width: 350px;
+        height: max-content;
+    }
+    .custom-img_2 {
+        width: 150px;
+        height: 300px;
+    }  
+    .custom-img__2 {
+        width: 140px;
+        height: 260px;
+    }
+
+
+    .custom-img3 {
+        width: 500px;
+        height: 300px;
+    }
+
+    .custom-img4 {
+        width: 400px;
+        height: 80px;
+    }
+
+    .custom-img5 {
+        width: max-content;
+        height: 60px;
+    }
+
+    .custom-space {
+        margin-left: 1px;
+    }
+
+    .container {
+        
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .container_1 {
+        
+        margin: 0 auto;
+        padding: 20px;
+        width: fit-content;
+    }
+
+    .pb-3 {
+        padding-bottom: 1rem;
+    }
+    
+    .fontIphone{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 2rem;
+       text-wrap: balance;
+
+     }
+@media only screen and (min-width: 700px)
+{
+.fontIphone_hyper{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 10rem;
+       text-wrap: balance;
+background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+     }
+@media only screen and (min-width: 400px) and (max-width: 699px)
+{
+.fontIphone_hyper{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 4rem;
+       text-wrap: balance;
+background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+     }
+@media only screen and (max-width: 399px)
+{
+.fontIphone_hyper{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 2rem;
+       text-wrap: balance;
+background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+     }
+@media only screen and (min-width: 700px)
+{
+.fontIphone_hyper2{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 5rem;
+       text-wrap: balance;
+background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+     }
+@media only screen and (min-width: 400px) and (max-width: 699px)
+{
+.fontIphone_hyper2{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 3rem;
+       text-wrap: balance;
+background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+     }
+@media only screen and (max-width: 399px)
+{
+.fontIphone_hyper2{
+        font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+     font-size: 1rem;
+       text-wrap: balance;
+background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+     }
+  @media only screen and (max-width: 600px){
+  .fontIphone{
+   font-size: 1rem;
+    font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+    text-align:center;
+   text-wrap: balance;
+
+  }
+  }
+    @media only screen and (min-width: 601px) and (max-width: 800px){
+  .fontIphone{
+   font-size: 1.5rem;
+    font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+    text-align:center;
+     text-wrap: balance;
+
+   
+  }
+  }
+   @media only screen and (min-width: 801px) and (max-width: 1100px){
+  .fontIphone{
+   font-size: 1.5rem;
+    font-style: var(--font-body-style);
+      font-family: var(--font-body-family);
+      font-weight: 600;
+      text-wrap: balance;
+  }
+   }
+  .text-pad{
+    margin-bottom:10px;
+    margin-top:10px;
+  }
+@media only screen and (min-width: 830px)
+{
+.pad{
+padding-top: 90px;
+}
+}
+
+.border{
+background: #1c1c1c; 
+border-radius: 40px;
+margin-bottom:15px !important;
+}
+
+img {
+float: top;
+}
+.rows{
+  display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+align-items: flex-end;
+}
+.rows2{
+  display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: space-around;
+}
+@media only screen and (max-width: 830px)
+{
+.page-width{
+padding: 1rem !important;
+margin: 0 !important;
+}
+}
+
+</style>
+<div class="page-width">
+<div class="container border my-5 pb-3 align-items-center">
+<!-- First Row -->
+<div class="row_1  align-items-center">
+
+<div class="col-lg-6">
+<div class="mb-lg-4"><img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/hero_logo_large_c615bea1-e302-4ec7-8c01-a0980af38d94.png?v=1729163092" alt="iPhone" class="iphone-image mb-3 custom-img4"></div>
+<p style="margin: 0;" class="fontIphone_hyper">Hiper pro.</p>
+<div>
+<div class="col-lg-6 align-items-center">
+<p style="margin: 0;" class="fontIphone">O nouă experiență magică pe iPhone. O funcție revoluționară de siguranță,</p>
+<p style="margin: 0;" class="fontIphone"> concepută pentru a salva vieți. O cameră principală, inovatoare, de 48 MP. </p>
+<p style="margin: 0;" class="fontIphone">Și un ecran cu până la 2x mai luminos în lumina soarelui.Toate, având</p>
+<p style="margin: 0;margin-bottom: 20px;" class="fontIphone">la bază cel mai evoluat cip de pe un iPhone.</p>
+</div>
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/hero_small_82d213db-d4eb-40e2-8a41-deeb101b216c.png?v=1729163096" alt="iPhone" class="iphone-image custom-img3">
+</div>
+</div>
+</div>
+</div>
+<!-- Second Row -->
+<div class="container border my-5 pb-3 align-items-center">
+<div class="col-lg-6 ">
+<p style="margin: 10px;" class="fontIphone_hyper2">Frumusețe care rezistă.</p>
+</div>
+<div class="row_2 pt-5 mb-4 d-flex justify-content-between align-items-center">
+<div style="background: black; border-radius: 40px;    padding: 10px;" class="col-lg-6">
+<p style="margin: 10px;" class="fontIphone">Ecran mereu activ</p>
+<p style="margin: 10px; background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">Tot ce te privește, dintr-o privire.</p>
+
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/design_always_on_large_46d1d5c9-516d-4001-8b8f-d1ee5abbe771.png?v=1729250180" alt="Camera Control" style="max-width: 90%;" class="iphone-image mb-4 custom-img2">
+
+<p style="margin: 10px;" class="fontIphone">Oțel inoxidabil chirurgical.</p>
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/design_scratch_resistant_large_e75be741-5477-4cb2-a38f-7d0ebc9523b5.png?v=1729250539" alt="Camera Control" class="iphone-image mb-4 custom-img2">
+</div>
+<div style="width:20px;" class="p"> </div>
+<div style="background: black; border-radius: 40px; padding: 50px;" class="col-lg-6">
+<p style="margin: 10px;" class="fontIphone">Rezistent la apă și praf.</p>
+<div class="col-lg-7 ">
+<div class="rows">
+<div class="col">
+<p class="fontIphone">6,7”</p>
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/design_ceramic_pro_max_large_1c248264-0c26-44a8-a2bc-acb0bc08ea58.png?v=1729250812" alt="Camera Control" class="iphone-image mb-4 custom-img_2">
+</div>
+
+<div class="col">
+<p class="fontIphone">6,1”</p>
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/design_ceramic_pro_large_45bcb40e-c7ec-497f-974b-4d3f4872200b.png?v=1729250827" alt="Camera Control" class="iphone-image mb-4 custom-img__2">
+</div>
+</div>
+<p style="margin: 10px;" class="fontIphone">Ceramic Shield.
+</p>
+<p style="margin: 10px; background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">
+Proiectat să reziste.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Third Row - Zoom Control --> <!-- Fourth Row -->
+<div class="container border my-5 pb-3 align-items-center">
+
+<div class="row  mb-4 align-items-center">
+<div class="col-lg-6">
+<p style="margin: 10px;" class="fontIphone_hyper2">iPhone te surprinde.</p>
+<p style="margin: 0;" class="fontIphone">Dynamic Island afișează muzica pe care o asculți,</p>
+<p style="margin: 0;" class="fontIphone"> scorurile sportive,FaceTime și multe altele.</p>
+<p style="margin: 0;" class="fontIphone">Totul, fără să te întrerupă din ceea ce faci.</p>
+</div>
+<div class="col-lg-6"><img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/dynamic_island_large_70f2e42a-3f34-4a95-8b46-0d00d83cfdde.png?v=1729165486" alt="Battery Life" class="iphone-image custom-img"></div>
+</div>
+</div>
+<!-- Fifth Row -->
+<div class="container border my-5 pb-3 align-items-center">
+<div class="rows3 mb-4 align-items-center">
+<div class="col-lg-6"><img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/safety_crash_alt_large_99c68014-aef1-48ea-b2a4-cbde54fe0771.png?v=1729263927" alt="A18 Chip" class="custom-img"></div>
+<div class="col-lg-6">
+<p style="margin: 10px;" class="fontIphone_hyper2">Funcția Detectare accident. </p>
+<p style="margin: 0;" class="fontIphone">iPhone 14 Pro poate detecta un accident </p>
+<p style="margin: 0;" class="fontIphone"> grav de mașină, apoi apelează serviciile </p>
+<p style="margin: 0;" class="fontIphone"> de urgență dacă tu nu poți.</p>
+
+</div>
+</div>
+</div>
+<div class="container border my-5 pb-3 align-items-center">
+<div class="my-5 pb-3 align-items-center">
+<div class="col-lg-6">
+<p style="margin: 10px;" class="fontIphone_hyper2">Sistem profesional
+de camere.
+</p>
+<p style="margin: 10px;" class="fontIphone_hyper2">
+Un avans fantastic.</p>
+</div>
+<div style="background: black; border-radius: 40px;max-width: max-content;" class="container pt-5 mb-4 d-flex justify-content-between align-items-center">
+<div class="col-lg-11">
+<div class="row  mb-4 align-items-center">
+<div class="col-lg-6">
+<div class="col-lg-6"><img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/photography_camera_large_09d42e8d-debf-4c6c-bc5b-f7c6006e901b.png?v=1729334105" alt="A18 Chip" class="iphone-image1"></div>
+<div class="col-lg-6">
+<div class="fontIphone ">Cameră principală de 48 MP </div>
+<div class="fontIphone "> cu senzor quad‑pixel avansat.</div>
+</div>
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/photography_color_large_e4247c1b-60cc-4b0a-90d6-f3c19e1cf283.png?v=1729334130" alt="A18 Chip" class="iphone-image1">
+<div class="col-lg-6">
+<div class="fontIphone ">O rezoluție de până la
+</div>
+<div class="fontIphone ">4x mai mare.O fotografie </div>
+<div class="fontIphone "> de excepție în fiecare detaliu.</div>
+</div>
+</div>
+</div>
+</div>
+<div style="justify-items: flex-start;" class="col-lg-6">
+<div class="col-lg-7">
+<img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/photography_low_light_large_aa25b4ca-8e79-4a02-af78-74285f880a4e.png?v=1729334151" alt="Camera Control" class="iphone-image2 mb-4">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container border my-5 pb-3 align-items-center">
+        
+            <div class="col-lg-6">
+                <p style="margin: 20px;" class="fontIphone_hyper2"> Calitatea filmelor de Hollywood</p>
+                </div>
+             <div style="background: black; border-radius: 40px;max-width: max-content;" class="container row pt-5 mb-4 d-flex justify-content-between align-items-center">
+                
+                
+                  <div class="col-lg-6">
+                  
+                    <p style="margin: 10px;" class="fontIphone"> Modul Cinematic.</p>
+                    <div style=" background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone"> În distribuție: formatul HDR 4K la 24 fps, </div>
+                    <div style=" background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">  standardul în cinematografie.</div>
+                    <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/video_cinematic_large_eb3255cb-3ee4-4ef7-ba19-6ea2ba98db93.png?v=1729351300" alt="Camera Control" class="iphone-image   ">
+
+                </div>
+                    <div class="col-lg-6">
+                       
+                        <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/video_hyper_stable_large_90309776-0f71-4ada-b485-65af51d73e33.png?v=1729351330" alt="Camera Control" style="max-width: 90%;" class="iphone-image   ">
+                    
+                  </div>
+             </div>
+         
+  </div>
+<div class="container border my-5 pb-3 align-items-center">
+<div class="col-lg-6">
+        <p style="margin: 10px;" class="fontIphone_hyper2">Super rapid. Super eficient.</p>
+        </div>
+<div style="max-width: max-content;" class="container my-5 pb-3 align-items-center">
+    
+   
+ <div class="rows2  mb-4  justify-content-between align-items-center">
+        
+        
+        <div style="padding: 15px; margin: 8px; background: black; border-radius: 40px;" class="col-lg-6">
+            
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/chip_icon_bionic_large_a0902205-c6d7-4724-b808-c7ac55d31fcf.png?v=1729353475" alt="Camera Control" style="max-width: 30%;" class="iphone-image   ">
+       
+                <div class="fontIphone">A16 Bionic, cel mai </div>
+                <div class="fontIphone"> evoluat cip de pe un iPhone.</div>
+        </div>
+   
+         <div style="padding: 15px; margin: 8px;background: black; border-radius: 40px;align-content: center;" class="col-lg-6">
+     <div class="fontIphone"> Până la 29 de ore de redare </div>
+           <div class="fontIphone">  video pe iPhone 14 Pro Max.</div>
+      <div style=" background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">Până la 23 de ore de redare  </div>
+      <div style="  background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">video pe iPhone 14 Pro.</div>
+    </div>
+        
+        
+    <div style="padding: 15px; margin: 8px;background: black; border-radius: 40px;" class="col-lg-6">
+        
+          
+        <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/battery_icon_large_740dc222-af2e-4860-a2e3-dd37242b63af.png?v=1729353442" alt="Camera Control" class="iphone-image   ">
+    
+           
+        <div class="fontIphone"> Un CPU
+cu 6 nuclee, mai rapid</div>
+      <div style=" background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">Face față ușor și eficient </div>
+      <div style=" background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">la sarcinile de lucru solicitante.</div>
+    </div>
+    <div style="padding: 15px; margin: 8px;background: black; border-radius: 40px; align-content: center;" class="col-lg-6">
+<div class="fontIphone"> Procesorul avansat de </div>
+       <div class="fontIphone">  semnal de imagine</div>
+      <div style="  background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">Stă la baza flexibilității  </div>
+      <div style=" background: linear-gradient(0deg, #B344FF 0%, #FFB6FF 100%); -webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="fontIphone">creative a senzorului quad-pixel.</div>
+    </div>
+   
+</div>
+
+  
+    
+</div>
+
+
+</div>
+
+
+</div>
+<!--   <div style="background: #1c1c1c;  border-radius: 40px;margin:15px;" class="container my-5 pb-3 align-items-center">
+ <div class="col-lg-8">
+            <p style="margin: 10px;" class="fontIphone"> Echipat cu chipsetul A17 Pro,</p>
+            </div>
+<div style="max-width: max-content;" class="container my-5 pb-3 align-items-center">
+        
+       
+         <div class="row pt-5 mb-4 d-flex justify-content-between align-items-center">
+            
+            
+              <div class="col-lg-6">
+                <div class="row  mb-4  justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/chip_icon_bionic_large_a0902205-c6d7-4724-b808-c7ac55d31fcf.png?v=1729353475" alt="Camera Control" style="max-width: 90%;" class="iphone-image   ">
+            </div>
+                    <div class="col-lg-6">
+                <div class="fontIphone">A16 Bionic, cel mai </div>
+                      <div class="fontIphone"> evoluat cip de pe un iPhone.</div>
+            </div>
+            
+        </div>
+            </div>
+                <div class="col-lg-6">
+                    <p style="margin: 10px;" class="fontIphone"> Echipat cu chipsetul A17 Pro,</p>
+                    <p style="margin: 10px;" class="fontIphone"> Echipat cu chipsetul A17 Pro,</p>
+
+              </div>
+         </div>
+         <div class="row mb-4  justify-content-between align-items-center">
+            
+            
+            <div class="col-lg-6">
+            
+                    <p style="margin: 10px;" class="fontIphone"> Echipat cu chipsetul A17 Pro,</p>
+                    <p style="margin: 10px;" class="fontIphone"> Echipat cu chipsetul A17 Pro,</p>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="row pt-5 mb-4 d-flex justify-content-between align-items-center">
+                <div class="col-lg-6">
+            <img src="https://cdn.shopify.com/s/files/1/0722/6533/5005/files/battery_icon_large_740dc222-af2e-4860-a2e3-dd37242b63af.png?v=1729353442" alt="Camera Control" class="iphone-image   ">
+        </div>
+                <div class="col-lg-6">
+            <p style="margin: 10px;" class="fontIphone"> Echipat cu chipsetul A17 Pro,</p>
+        </div>
+        
+    </div>
+       </div>
+        </div>
+      </div>
+  </div> -->
+
+
+
+
